@@ -36,6 +36,10 @@ mkdir -p $NVIM_CONFIG
 ln -s $DOTFILES_DIR/vim/vimrc $HOME/.config/nvim/init.vim
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
+# ncm required libs
+pip3 install jedi --user
+pip3 install pynvim --user
+
 echo "nvm"
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 source $HOME/.bashrc
