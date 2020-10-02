@@ -1,2 +1,2 @@
 # Devbox provision script
-so I don't need to install one by one
+So I don't need to install one by one
